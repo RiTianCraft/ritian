@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="日田公司宣传网页，展示亚克力工艺制品、二次元谷美产品与塑胶制品。" />
+  <title>日田公司宣传官网</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="日田首页">
+      <img src="assets/logo.svg" alt="日田 Logo" />
+      <span>日田</span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="打开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="主导航">
+      <ul>
+        <li><a href="#home">首页</a></li>
+        <li class="has-menu">
+          <a href="#about">关于我们</a>
+          <ul class="sub-menu">
+            <li><a href="#about">公司简介</a></li>
+            <li><a href="#history">发展历程</a></li>
+            <li><a href="#advantages">企业优势</a></li>
+          </ul>
+        </li>
+        <li class="has-menu">
+          <a href="#products">产品展示</a>
+          <ul class="sub-menu">
+            <li><a href="#acrylic">家居收纳类亚克力产品</a></li>
+            <li><a href="#anime">二次元谷美类产品</a></li>
+            <li><a href="#plastic">塑胶类产品</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-label="首页轮播">
+      <div class="hero-carousel" data-hero-carousel>
+        <article class="hero-slide is-active">
+          <img src="assets/images/hero/hero-01.jpg" alt="日田产品展示与品牌形象" />
+          <div class="hero-copy">
+            <p>RITIAN GROUP · SINCE 2008</p>
+            <h1>简约创造，轻松表达，连接价值</h1>
+            <a class="primary-link" href="#products">查看产品</a>
+          </div>
+        </article>
+        <article class="hero-slide">
+          <img src="assets/images/hero/hero-02.jpg" alt="日田公司宣传封面" />
+          <div class="hero-copy">
+            <p>ACRYLIC · PLASTIC · NEW MATERIAL</p>
+            <h1>从创意设计到终端销售的完整产业链</h1>
+            <a class="primary-link" href="#about">了解日田</a>
+          </div>
+        </article>
+        <article class="hero-slide">
+          <img src="assets/images/hero/hero-03.jpg" alt="日田合作咨询封面" />
+          <div class="hero-copy">
+            <p>USER FIRST · INNOVATION · INTEGRITY</p>
+            <h1>欢迎前来洽谈咨询，期待与您合作</h1>
+            <a class="primary-link" href="#contact">联系我们</a>
+          </div>
+        </article>
+        <button class="hero-control prev" type="button" aria-label="上一张" data-hero-prev>&lsaquo;</button>
+        <button class="hero-control next" type="button" aria-label="下一张" data-hero-next>&rsaquo;</button>
+        <div class="hero-dots" data-hero-dots aria-label="轮播分页"></div>
+      </div>
+    </section>
+
+    <section class="section intro-section" id="about">
+      <div class="section-heading reveal">
+        <p>Company Profile</p>
+        <h2>公司简介</h2>
+      </div>
+      <div class="company-grid">
+        <article class="company-card reveal">
+          <span>深圳日田</span>
+          <h3>深圳日田工艺制品有限公司</h3>
+          <p>深圳日田工艺制品发展始于 2008 年，2010 年 9 月 5 日正式注册成立。公司以亚克力工艺制品为核心业务，拥有热弯、丝印、移印、抛光、激光雕刻、切割等全套生产设备与工艺能力。</p>
+          <p>产品涵盖展示架、灯箱、LED 平板灯、展示道具、亚克力面板、水晶工艺品、奖杯奖牌、台历架、酒水餐牌、陈列柜等，服务广告、礼品、家居、商超等行业。</p>
+        </article>
+        <article class="company-card reveal">
+          <span>惠州日田</span>
+          <h3>惠州日田塑胶制品有限公司</h3>
+          <p>随着业务规模扩大和市场需求多元化，惠州日田于 2018 年 9 月 25 日成立，进一步拓展塑胶与五金制品业务板块。</p>
+          <p>公司建立从产品设计、模具开发、注塑成型到喷油丝印的一站式服务体系，为电子、家电、汽车、新能源等行业提供定制化解决方案。</p>
+        </article>
+        <article class="company-card reveal">
+          <span>东莞日田</span>
+          <h3>东莞日田新材料科技有限公司</h3>
+          <p>东莞日田成立于 2023 年，专注新材料技术研发与推广，重点发展电商领域，承接个性定制服务与出口贸易业务。</p>
+          <p>三家公司互补协同，形成从研发、设计、制造到网络营销与终端销售的完整产业链，持续推动工贸一体化转型。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section history-section" id="history">
+      <div class="section-heading reveal">
+        <p>Milestones</p>
+        <h2>发展历程</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><strong>2008</strong><h3>业务起步</h3><p>以亚克力工艺制品为核心业务，积累制造经验与客户资源。</p></article>
+        <article class="timeline-item reveal"><strong>2010</strong><h3>深圳日田成立</h3><p>正式注册深圳日田工艺制品有限公司，建立完整亚克力生产体系。</p></article>
+        <article class="timeline-item reveal"><strong>2018</strong><h3>惠州日田成立</h3><p>拓展塑胶与五金制品，进入精密制造与一站式定制服务领域。</p></article>
+        <article class="timeline-item reveal"><strong>2023</strong><h3>东莞日田成立</h3><p>发展新材料技术与兴趣电商，推进自主设计、定制服务与出口贸易。</p></article>
+        <article class="timeline-item reveal"><strong>2026</strong><h3>入围 1688 必找工厂榜</h3><p>回头率达 45%，好评率高达 99.5%，积累 1400+ 忠实粉丝客户。</p></article>
+      </div>
+    </section>
+
+    <section class="section advantages-section" id="advantages">
+      <div class="section-heading reveal">
+        <p>Why Choose Us</p>
+        <h2>企业优势</h2>
+      </div>
+      <div class="advantage-grid">
+        <article class="advantage-card reveal"><span>01</span><h3>品类齐全</h3><p>可定制生产各类所需板材，是资质齐全的专业加工生产供应商。</p></article>
+        <article class="advantage-card reveal"><span>02</span><h3>品质卓越</h3><p>深耕亚克力和塑胶制造多年，生产工艺成熟，品质值得信赖。</p></article>
+        <article class="advantage-card reveal"><span>03</span><h3>交付迅速</h3><p>先进设备与完整流程保障生产效率，在约定时限内准时交货。</p></article>
+        <article class="advantage-card reveal"><span>04</span><h3>积极响应</h3><p>设计团队与电商团队快速协作，及时回复咨询与询盘。</p></article>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading reveal">
+        <p>Product Showcase</p>
+        <h2>产品展示</h2>
+      </div>
+
+      <section class="product-block reveal" id="acrylic" data-product-carousel>
+        <div class="product-title">
+          <div><p>Acrylic Storage</p><h3>家居收纳类亚克力产品</h3></div>
+          <div class="product-controls">
+            <button type="button" aria-label="上一张" data-product-prev>&lsaquo;</button>
+            <button type="button" aria-label="下一张" data-product-next>&rsaquo;</button>
+          </div>
+        </div>
+        <div class="product-window">
+        <div class="product-grid">
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-01.jpg" alt="家居收纳类亚克力产品 1" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-02.jpg" alt="家居收纳类亚克力产品 2" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-03.jpg" alt="家居收纳类亚克力产品 3" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-04.jpg" alt="家居收纳类亚克力产品 4" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-05.jpg" alt="家居收纳类亚克力产品 5" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-06.jpg" alt="家居收纳类亚克力产品 6" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-07.jpg" alt="家居收纳类亚克力产品 7" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-08.jpg" alt="家居收纳类亚克力产品 8" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-09.jpg" alt="家居收纳类亚克力产品 9" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-10.jpg" alt="家居收纳类亚克力产品 10" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-11.jpg" alt="家居收纳类亚克力产品 11" /></figure>
+          <figure class="product-card"><img src="assets/images/acrylic/acrylic-12.jpg" alt="家居收纳类亚克力产品 12" /></figure>
+        </div>
+        </div>
+      </section>
+
+      <section class="product-block reveal" id="anime" data-product-carousel>
+        <div class="product-title">
+          <div><p>Character Goods</p><h3>二次元谷美类产品</h3></div>
+          <div class="product-controls">
+            <button type="button" aria-label="上一张" data-product-prev>&lsaquo;</button>
+            <button type="button" aria-label="下一张" data-product-next>&rsaquo;</button>
+          </div>
+        </div>
+        <div class="product-window">
+        <div class="product-grid">
+          <figure class="product-card"><img src="assets/images/anime/anime-01.jpg" alt="二次元谷美类产品 1" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-02.jpg" alt="二次元谷美类产品 2" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-03.jpg" alt="二次元谷美类产品 3" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-04.jpg" alt="二次元谷美类产品 4" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-05.jpg" alt="二次元谷美类产品 5" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-06.jpg" alt="二次元谷美类产品 6" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-07.jpg" alt="二次元谷美类产品 7" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-08.jpg" alt="二次元谷美类产品 8" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-09.jpg" alt="二次元谷美类产品 9" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-10.jpg" alt="二次元谷美类产品 10" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-11.jpg" alt="二次元谷美类产品 11" /></figure>
+          <figure class="product-card"><img src="assets/images/anime/anime-12.jpg" alt="二次元谷美类产品 12" /></figure>
+        </div>
+        </div>
+      </section>
+
+      <section class="product-block reveal" id="plastic" data-product-carousel>
+        <div class="product-title">
+          <div><p>Plastic Products</p><h3>塑胶类产品</h3></div>
+          <div class="product-controls">
+            <button type="button" aria-label="上一张" data-product-prev>&lsaquo;</button>
+            <button type="button" aria-label="下一张" data-product-next>&rsaquo;</button>
+          </div>
+        </div>
+        <div class="product-window">
+        <div class="product-grid product-grid-contain">
+          <figure class="product-card"><img src="assets/images/plastic/plastic-01.jpg" alt="塑胶类产品 1" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-02.jpg" alt="塑胶类产品 2" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-03.jpg" alt="塑胶类产品 3" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-04.jpg" alt="塑胶类产品 4" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-05.jpg" alt="塑胶类产品 5" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-06.jpg" alt="塑胶类产品 6" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-07.jpg" alt="塑胶类产品 7" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-08.jpg" alt="塑胶类产品 8" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-09.jpg" alt="塑胶类产品 9" /></figure>
+          <figure class="product-card"><img src="assets/images/plastic/plastic-10.jpg" alt="塑胶类产品 10" /></figure>
+        </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="eyebrow">Contact Us</p>
+          <h2>欢迎咨询合作</h2>
+          <p class="contact-lead">期待与您携手共赢，为亚克力、塑胶、新材料与定制产品提供稳定可靠的制造支持。</p>
+        </div>
+        <div class="contact-list">
+          <div><strong>公司地址</strong><p>广东省深圳市龙岗区安华路53号</p><p>惠州市惠阳区新圩产径全昌村(厂房C)</p><p>广东省东莞市凤岗镇京东路1号1号楼2403室</p></div>
+          <div><strong>联系电话</strong><p>012-34567890</p><p>138-0000-0000</p></div>
+          <div><strong>电子邮箱</strong><p><a href="mailto:keyahui_camille@163.com">keyahui_camille@163.com</a></p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/logo.svg" alt="日田 Logo" />
+      <span>日田 · RITIAN GROUP</span>
+    </div>
+    <div class="footer-links">
+      <a href="https://szrtgy.1688.com/" target="_blank" rel="noopener noreferrer">1688</a>
+      <a href="https://shop225140961.taobao.com/shop/view_shop.htm?appUid=RAzN8HWKVEc8duyQFFsbSAoVeHzk8ssUHiwEbiiLJraMwzUMJ3B&spm=a21n57.1.hoverItem.3" target="_blank" rel="noopener noreferrer">淘宝</a>
+      <a href="https://www.xiaohongshu.com/user/profile/65f3cbc0000000000500dd0a" target="_blank" rel="noopener noreferrer">小红书</a>
+    </div>
+    <p>Copyright © Shenzhen Ritian Craft Products Co., Ltd. 版权所有</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
