@@ -129,8 +129,6 @@ function createSwipeNavigation(element, { onPrevious, onNext, onStart, onEnd }) 
 
 function createHeroCarousel(root) {
   const slides = Array.from(root.querySelectorAll(".hero-slide"));
-  const prev = root.querySelector("[data-hero-prev]");
-  const next = root.querySelector("[data-hero-next]");
   const dotsWrap = root.querySelector("[data-hero-dots]");
   let index = 0;
   let timer = null;
@@ -166,8 +164,6 @@ function createHeroCarousel(root) {
     timer = null;
   }
 
-  prev.addEventListener("click", () => show(index - 1));
-  next.addEventListener("click", () => show(index + 1));
   createSwipeNavigation(root, {
     onPrevious: () => show(index - 1),
     onNext: () => show(index + 1),

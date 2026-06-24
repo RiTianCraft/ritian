@@ -271,7 +271,6 @@ img {
   box-shadow: 0 24px 42px rgba(70, 31, 0, .36);
 }
 
-.hero-control,
 .product-controls button {
   display: inline-flex;
   align-items: center;
@@ -287,26 +286,8 @@ img {
   transition: transform .2s ease, filter .2s ease;
 }
 
-.hero-control {
-  position: absolute;
-  z-index: 3;
-  top: 50%;
-  width: 48px;
-  height: 48px;
-  font-size: 34px;
-  transform: translateY(-50%);
-}
-
-.hero-control.prev { left: clamp(14px, 2vw, 32px); }
-.hero-control.next { right: clamp(14px, 2vw, 32px); }
-
-.hero-control:hover,
 .product-controls button:hover {
   filter: saturate(1.08);
-}
-
-.hero-control:hover {
-  transform: translateY(-50%) scale(1.03);
 }
 
 .product-controls button:hover {
@@ -820,14 +801,6 @@ img {
 
   .hero-copy h1 {
     font-size: clamp(34px, 12vw, 54px);
-  }
-
-  .hero-control {
-    top: 50%;
-    bottom: auto;
-    width: 40px;
-    height: 40px;
-    font-size: 28px;
   }
 
   .hero-slide::after {
